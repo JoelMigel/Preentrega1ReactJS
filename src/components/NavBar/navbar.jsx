@@ -1,6 +1,6 @@
-import React from 'react';
-import { CardWidget } from "./CardWidget";
-import './Navbar.css';
+import React from "react";
+import { CardWidget } from "../CartWidget/cartwidget";
+import "./navbar.css";
 
 const Navbar = () => {
   return (

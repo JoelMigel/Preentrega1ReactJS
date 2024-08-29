@@ -1,4 +1,4 @@
-import './CardWidget.css'
+import './cartwidget.css'
 export const CardWidget = () => {
   let items = 3; 
 
