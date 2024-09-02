@@ -2,7 +2,7 @@ import React from "react";
 import { CardWidget } from "../CartWidget/cartwidget";
 import "./navbar.css";
 
-const Navbar = () => {
+function Navbar() {
   return (
     <nav className="navbar">
       <h1>Mi Tienda</h1>
@@ -11,9 +11,9 @@ const Navbar = () => {
         <li><a href="#">Productos</a></li>
         <li><a href="#">Carrito</a></li>
       </ul>
-      <CardWidget/>
+      <CardWidget />
     </nav>
   );
-};
+}
 
-export default Navbar;
+export { Navbar };
